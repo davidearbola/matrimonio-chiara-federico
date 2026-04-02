@@ -64,6 +64,7 @@ import img4 from '../assets/images/immagine4.jpeg'
 <style scoped>
 .fullwidth-photo {
   padding: 32px 0 48px;
+  overflow: hidden;
 }
 
 /* row: angel — photo — angel */
@@ -150,10 +151,6 @@ import img4 from '../assets/images/immagine4.jpeg'
   .fullwidth-photo__frame {
     margin: 8px 0;
     width: 100%;
-  }
-
-  .fullwidth-photo__border {
-    display: none;
   }
 
   .fullwidth-photo__captions {

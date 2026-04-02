@@ -126,9 +126,9 @@ import separDxUrl from '../assets/images/separ-dx.png'
   }
 
   .hero__meta {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
 
   .hero__date,

@@ -140,15 +140,20 @@ import img4 from '../assets/images/immagine4.jpeg'
 @media (max-width: 600px) {
   .fullwidth-photo__row {
     flex-direction: column;
+    align-items: center;
   }
 
   .fullwidth-photo__angel {
-    width: 90px;
+    width: 70px;
   }
 
   .fullwidth-photo__frame {
-    margin: 16px 0;
+    margin: 8px 0;
     width: 100%;
+  }
+
+  .fullwidth-photo__border {
+    display: none;
   }
 
   .fullwidth-photo__captions {

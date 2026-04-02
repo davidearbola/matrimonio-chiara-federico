@@ -118,4 +118,21 @@ import busteUrl from '../assets/images/buste.png'
 .contatti__list a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .contatti__grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .contatti__person:first-child,
+  .contatti__person:last-child {
+    text-align: center;
+  }
+
+  .contatti__person:last-child .contatti__list {
+    align-items: center;
+  }
+}
 </style>

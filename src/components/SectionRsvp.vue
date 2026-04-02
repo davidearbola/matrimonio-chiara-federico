@@ -79,6 +79,11 @@ const emit = defineEmits(['open-modal'])
 }
 
 @media (max-width: 600px) {
+  .rsvp__content {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
   .rsvp__left {
     align-items: center;
   }
@@ -89,6 +94,10 @@ const emit = defineEmits(['open-modal'])
 
   .rsvp__underline {
     margin: 0 auto 22px;
+  }
+
+  .rsvp__fiori-img {
+    width: 100px;
   }
 }
 </style>

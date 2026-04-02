@@ -80,6 +80,7 @@ import separDxUrl from '../assets/images/separ-dx.png'
 .dettagli__separ {
   height: 32px;
   width: auto;
+  max-width: 30vw;
 }
 
 .dettagli__separ--flip {
@@ -139,5 +140,24 @@ import separDxUrl from '../assets/images/separ-dx.png'
   color: var(--color-green);
   text-decoration: underline;
   margin-top: auto;
+}
+
+@media (max-width: 600px) {
+  .dettagli {
+    padding: 40px 0 56px;
+  }
+
+  .dettagli__separ {
+    display: none;
+  }
+
+  .dettagli__header {
+    margin-bottom: 36px;
+  }
+
+  .dettagli__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 </style>

@@ -137,7 +137,7 @@ import separDxUrl from '../assets/images/separ-dx.png'
   }
 
   .hero__separator {
-    height: 24px;
+    display: none;
   }
 }
 </style>

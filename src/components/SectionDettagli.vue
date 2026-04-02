@@ -22,7 +22,7 @@ import separDxUrl from '../assets/images/separ-dx.png'
           <h3 class="dettagli__card-title">Cerimonia</h3>
           <p class="dettagli__card-text">
             La cerimonia si terrà alle ore <strong>16:00</strong><br>
-            presso la chiesa di San Michele Vetere a Cremona
+            presso la chiesa di <strong>San Michele Vetere a Cremona</strong>
           </p>
           <a
             class="dettagli__link"

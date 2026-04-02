@@ -71,7 +71,7 @@ import img4 from '../assets/images/immagine4.jpeg'
 .fullwidth-photo__row {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 24px;
 }
 
 .fullwidth-photo__angel {

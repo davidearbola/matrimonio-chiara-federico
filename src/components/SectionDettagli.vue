@@ -114,7 +114,7 @@ import separDxUrl from '../assets/images/separ-dx.png'
 
 .dettagli__card-title {
   font-family: var(--font-script);
-  font-size: 2.4rem;
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
   color: var(--color-green);
   margin: 0 0 14px;
   font-weight: 400;

@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=IM+Fell+English:ital@0;1&family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Courier+Prime&display=swap');
+
+@font-face {
+  font-family: 'HomemadeApple';
+  src: url('./assets/fonts/HomemadeApple-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --color-bg:           #F5F0E4;
@@ -7,7 +15,7 @@
   --color-green-light:  #7AAA64;
   --color-border:       #B8CE9E;
   --color-placeholder:  #D5CBB4;
-  --font-script:        'Great Vibes', cursive;
+  --font-script:        'HomemadeApple', cursive;
   --font-serif:         'IM Fell English', Georgia, serif;
   --font-mono:          'Courier Prime', 'Courier New', monospace;
   --max-width:          1100px;
@@ -49,7 +57,7 @@ a:hover {
 /* Section title: script font, large */
 .section-title {
   font-family: var(--font-script);
-  font-size: clamp(2.8rem, 7vw, 4.8rem);
+  font-size: clamp(1.8rem, 4.5vw, 3rem);
   color: var(--color-green);
   text-align: center;
   margin: 0 0 0.15em;
@@ -87,7 +95,7 @@ a:hover {
   font-family: var(--font-serif);
   font-size: 1.1rem;
   opacity: 0.6;
-  letter-spacing: 6px;
+  letter-spacing: 0;
 }
 
 /* Primary button */

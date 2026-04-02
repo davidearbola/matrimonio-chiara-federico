@@ -8,9 +8,9 @@ import separDxUrl from '../assets/images/separ-dx.png'
   <section class="hero">
     <!-- Title in arc shape using SVG textPath -->
     <div class="hero__title-wrap">
-      <svg viewBox="0 0 600 210" xmlns="http://www.w3.org/2000/svg" class="hero__title-svg">
+      <svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" class="hero__title-svg">
         <defs>
-          <path id="titleArc" d="M 30,200 A 420,420 0 0,1 570,200"/>
+          <path id="titleArc" d="M 20,260 A 700,700 0 0,1 880,260"/>
         </defs>
         <text class="hero__title-text" text-anchor="middle">
           <textPath href="#titleArc" startOffset="50%">Chiara e Federico</textPath>
@@ -63,8 +63,8 @@ import separDxUrl from '../assets/images/separ-dx.png'
 }
 
 .hero__title-text {
-  font-family: 'Great Vibes', cursive;
-  font-size: 80px;
+  font-family: var(--font-script);
+  font-size: 72px;
   fill: var(--color-green);
   font-weight: 400;
 }
@@ -122,7 +122,7 @@ import separDxUrl from '../assets/images/separ-dx.png'
 
 @media (max-width: 600px) {
   .hero__title-text {
-    font-size: 52px;
+    font-size: 48px;
   }
 
   .hero__meta {

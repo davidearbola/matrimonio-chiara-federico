@@ -15,25 +15,25 @@ const modalOpen = ref(false)
 <template>
   <SectionHero />
 
-  <div class="section-divider"><span class="section-divider__ornament">&#x2767;&nbsp;&nbsp;&#x2767;&nbsp;&nbsp;&#x2767;</span></div>
+  <div class="section-divider"><span class="section-divider__ornament">&#x2665;</span></div>
 
   <SectionPhotoIntro />
 
-  <div class="section-divider"><span class="section-divider__ornament">&#x2767;&nbsp;&nbsp;&#x2767;&nbsp;&nbsp;&#x2767;</span></div>
+  <div class="section-divider"><span class="section-divider__ornament">&#x2665;</span></div>
 
   <SectionDettagli />
 
-  <div class="section-divider"><span class="section-divider__ornament">&#x2767;&nbsp;&nbsp;&#x2767;&nbsp;&nbsp;&#x2767;</span></div>
+  <div class="section-divider"><span class="section-divider__ornament">&#x2665;</span></div>
 
   <SectionListaNozze />
 
   <SectionFullwidthPhoto />
 
-  <div class="section-divider"><span class="section-divider__ornament">&#x2767;&nbsp;&nbsp;&#x2767;&nbsp;&nbsp;&#x2767;</span></div>
+  <div class="section-divider"><span class="section-divider__ornament">&#x2665;</span></div>
 
   <SectionRsvp @open-modal="modalOpen = true" />
 
-  <div class="section-divider"><span class="section-divider__ornament">&#x2767;&nbsp;&nbsp;&#x2767;&nbsp;&nbsp;&#x2767;</span></div>
+  <div class="section-divider"><span class="section-divider__ornament">&#x2665;</span></div>
 
   <SectionContatti />
 

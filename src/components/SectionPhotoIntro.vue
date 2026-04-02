@@ -29,9 +29,9 @@ const photos = [img1, img2, img3]
 }
 
 .photo-intro__text {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: clamp(1.15rem, 3vw, 1.55rem);
+  font-family: var(--font-script);
+  font-style: normal;
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
   color: var(--color-green);
   margin: 0;
   line-height: 1.4;

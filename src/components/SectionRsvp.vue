@@ -11,7 +11,7 @@ const emit = defineEmits(['open-modal'])
         <div class="rsvp__left">
           <h2 class="section-title rsvp__title">Conferma la tua presenza</h2>
           <div class="rsvp__underline" aria-hidden="true"></div>
-          <p class="rsvp__deadline">ENTRO IL 4 GIUGNO!</p>
+          <p class="rsvp__deadline">ENTRO IL 15 GIUGNO!</p>
           <button class="btn-primary rsvp__btn" @click="emit('open-modal')">
             CLICCA QUI
           </button>

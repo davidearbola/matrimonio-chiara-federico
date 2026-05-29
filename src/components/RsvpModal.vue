@@ -74,7 +74,7 @@ watch(() => props.modelValue, async (val) => {
           <!-- Form state -->
           <div v-else>
             <h2 class="modal-title">Ci sarai?</h2>
-            <p class="modal-subtitle">Conferma la tua presenza entro il 4 giugno!</p>
+            <p class="modal-subtitle">Conferma la tua presenza entro il 15 giugno!</p>
 
             <form @submit.prevent="handleSubmit" novalidate>
               <div class="modal-field">
